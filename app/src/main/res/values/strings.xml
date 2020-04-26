@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Push Kit Demo</string>
+
+    <string name="getToken">Get Token</string>
+    <string name="deleteToken">Delete Token</string>
+    <string name="get_aaid">Get AAID</string>
+    <string name="delete_aaid">Delete AAID</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="creation_time">Creation Time</string>
+    <string name="get_id">Get Id</string>
+    <string name="is_auto_init_enabled">Is Auto Init Enabled</string>
+    <string name="send_message">Send Message</string>
+    <string name="set_auto_init">set_auto_init</string>
+</resources>

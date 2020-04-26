@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+
+    <Button
+        android:id="@+id/btn_get_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/getToken"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_set_auto_init_enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/set_auto_init"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+
+
+    <Button
+        android:id="@+id/btn_is_auto_init_enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/is_auto_init_enabled"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+
+    <Button
+        android:id="@+id/btn_get_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/get_id"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_get_creation_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/creation_time"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+
+
+    <Button
+        android:id="@+id/btn_unsubs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/unsubscribe"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+    <Button
+        android:id="@+id/btn_subs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/subscribe"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_delete_token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="@string/deleteToken"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle,RelativeOverlap" />
+
+    <Button
+        android:id="@+id/btn_get_aaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="@string/get_aaid"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/btn_delete_aaid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_background"
+        android:paddingStart="2dp"
+        android:paddingEnd="2dp"
+        android:text="@string/delete_aaid"
+        android:textColor="@color/white"
+        tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</ScrollView>

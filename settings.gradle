@@ -1,0 +1,3 @@
+rootProject.name='PushKitDemo'
+include ':app'
+include ':pushkit'
