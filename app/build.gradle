@@ -56,7 +56,6 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
     implementation project(path: ':pushkit')
 
-    implementation 'com.github.isilsucitim:pushkit:1.0'
-    implementation 'com.ibm.mobilefirstplatform.clientsdk.android:push:1.0.0'
+
 
 }
