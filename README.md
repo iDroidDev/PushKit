@@ -16,7 +16,7 @@ Add it in your root build.gradle at the end of repositories:
     
 Add the dependency to your project build.gradle file:
 
-        implementation 'com.github.iDroidDev:PushKit:1.1'
+        implementation 'com.github.iDroidDev:PushKit:1.3'
         
 Usage
 
